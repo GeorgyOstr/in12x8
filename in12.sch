@@ -5056,6 +5056,126 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 </deviceset>
 </devicesets>
 </library>
+<library name="ds3232">
+<packages>
+<package name="SO20-2">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
+<wire x1="-6.2738" y1="-3.7084" x2="6.2738" y2="-3.7084" width="0.1524" layer="21"/>
+<wire x1="6.2738" y1="-3.7084" x2="6.2738" y2="3.7084" width="0.1524" layer="21"/>
+<wire x1="6.2738" y1="3.7084" x2="-6.2738" y2="3.7084" width="0.1524" layer="21"/>
+<wire x1="-6.2738" y1="3.7084" x2="-6.2738" y2="-3.7084" width="0.1524" layer="21"/>
+<circle x="-5.3848" y="-2.7686" radius="0.5334" width="0.1524" layer="21"/>
+<smd name="N.C.-0" x="-5.715" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-1" x="-4.445" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="32KHZ" x="-3.175" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="VCC" x="-1.905" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="!INT/SQW" x="-0.635" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="!RST" x="0.635" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-2" x="1.905" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-3" x="3.175" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-4" x="4.445" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-5" x="5.715" y="-4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-7" x="4.445" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-6" x="5.715" y="4.7498" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-8" x="3.175" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-9" x="1.905" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="GND" x="0.635" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="V_{BAT}" x="-0.635" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="SDA" x="-1.905" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="SCL@0" x="-3.175" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="N.C.-10" x="-4.445" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<smd name="SCL@1" x="-5.715" y="4.7752" dx="0.762" dy="1.524" layer="1"/>
+<text x="-6.604" y="-3.683" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-5.461" y="-0.762" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="5.5118" y1="3.7592" x2="5.9182" y2="5.08" layer="51"/>
+<rectangle x1="4.2418" y1="3.7592" x2="4.6482" y2="5.08" layer="51"/>
+<rectangle x1="2.9718" y1="3.7592" x2="3.3782" y2="5.08" layer="51"/>
+<rectangle x1="1.7018" y1="3.7592" x2="2.1082" y2="5.08" layer="51"/>
+<rectangle x1="0.4318" y1="3.7592" x2="0.8382" y2="5.08" layer="51"/>
+<rectangle x1="-0.8382" y1="3.7592" x2="-0.4318" y2="5.08" layer="51"/>
+<rectangle x1="-2.1082" y1="3.7592" x2="-1.7018" y2="5.08" layer="51"/>
+<rectangle x1="-3.3782" y1="3.7592" x2="-2.9718" y2="5.08" layer="51"/>
+<rectangle x1="-4.6482" y1="3.7592" x2="-4.2418" y2="5.08" layer="51"/>
+<rectangle x1="-5.9182" y1="3.7592" x2="-5.5118" y2="5.08" layer="51"/>
+<rectangle x1="5.5118" y1="-5.08" x2="5.9182" y2="-3.7592" layer="51"/>
+<rectangle x1="4.2418" y1="-5.08" x2="4.6482" y2="-3.7592" layer="51"/>
+<rectangle x1="2.9718" y1="-5.08" x2="3.3782" y2="-3.7592" layer="51"/>
+<rectangle x1="1.7018" y1="-5.08" x2="2.1082" y2="-3.7592" layer="51"/>
+<rectangle x1="0.4318" y1="-5.08" x2="0.8382" y2="-3.7592" layer="51"/>
+<rectangle x1="-0.8382" y1="-5.08" x2="-0.4318" y2="-3.7592" layer="51"/>
+<rectangle x1="-2.1082" y1="-5.08" x2="-1.7018" y2="-3.7592" layer="51"/>
+<rectangle x1="-3.3782" y1="-5.08" x2="-2.9718" y2="-3.7592" layer="51"/>
+<rectangle x1="-4.6482" y1="-5.08" x2="-4.2418" y2="-3.7592" layer="51"/>
+<rectangle x1="-5.9182" y1="-5.08" x2="-5.5118" y2="-3.7592" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DS2323">
+<wire x1="-2.54" y1="22.86" x2="20.32" y2="22.86" width="0.254" layer="97"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="-10.16" width="0.254" layer="97"/>
+<wire x1="20.32" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="97"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="22.86" width="0.254" layer="97"/>
+<text x="2.54" y="20.32" size="1.6764" layer="97" font="vector" ratio="10">DS3232</text>
+<pin name="GND@0" x="-7.62" y="17.78" length="middle"/>
+<pin name="GND@1" x="-7.62" y="15.24" length="middle"/>
+<pin name="32KHZ" x="-7.62" y="12.7" length="middle"/>
+<pin name="VCC" x="-7.62" y="10.16" length="middle"/>
+<pin name="!INT/SQW" x="-7.62" y="7.62" length="middle"/>
+<pin name="RST" x="-7.62" y="5.08" length="middle"/>
+<pin name="GND@2" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND@3" x="-7.62" y="0" length="middle"/>
+<pin name="GND@4" x="-7.62" y="-2.54" length="middle"/>
+<pin name="GND@5" x="-7.62" y="-5.08" length="middle"/>
+<pin name="GND@6" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@7" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@8" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="GND@9" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@10" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="VBAT" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="SDA" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="SCL@0" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="GND@11" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="SCL@1" x="25.4" y="17.78" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS3232">
+<description>Maxims DS3232 is a high precision rtc</description>
+<gates>
+<gate name="G$1" symbol="DS2323" x="-10.16" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SO20-2">
+<connects>
+<connect gate="G$1" pin="!INT/SQW" pad="!INT/SQW"/>
+<connect gate="G$1" pin="32KHZ" pad="32KHZ"/>
+<connect gate="G$1" pin="GND@0" pad="N.C.-0"/>
+<connect gate="G$1" pin="GND@1" pad="N.C.-1"/>
+<connect gate="G$1" pin="GND@10" pad="N.C.-10"/>
+<connect gate="G$1" pin="GND@11" pad="GND"/>
+<connect gate="G$1" pin="GND@2" pad="N.C.-2"/>
+<connect gate="G$1" pin="GND@3" pad="N.C.-3"/>
+<connect gate="G$1" pin="GND@4" pad="N.C.-4"/>
+<connect gate="G$1" pin="GND@5" pad="N.C.-5"/>
+<connect gate="G$1" pin="GND@6" pad="N.C.-6"/>
+<connect gate="G$1" pin="GND@7" pad="N.C.-7"/>
+<connect gate="G$1" pin="GND@8" pad="N.C.-8"/>
+<connect gate="G$1" pin="GND@9" pad="N.C.-9"/>
+<connect gate="G$1" pin="RST" pad="!RST"/>
+<connect gate="G$1" pin="SCL@0" pad="SCL@0"/>
+<connect gate="G$1" pin="SCL@1" pad="SCL@1"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VBAT" pad="V_{BAT}"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5097,6 +5217,7 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <part name="U4" library="nixiemisc" deviceset="HV5523" device=""/>
 <part name="U5" library="nixiemisc" deviceset="HV5523" device=""/>
 <part name="U6" library="nixiemisc" deviceset="HV5523" device=""/>
+<part name="U$1" library="ds3232" deviceset="DS3232" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5219,6 +5340,7 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <attribute name="NAME" x="203.2" y="190.5" size="1.27" layer="94"/>
 <attribute name="VALUE" x="205.74" y="124.46" size="1.27" layer="94"/>
 </instance>
+<instance part="U$1" gate="G$1" x="276.86" y="147.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5618,9 +5740,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <label x="106.68" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="165.1" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
-<label x="119.38" y="165.1" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV32"/>
+<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<label x="83.82" y="132.08" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV22"/>
 </segment>
 </net>
 <net name="L31" class="0">
@@ -5630,9 +5752,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="177.8" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
-<label x="119.38" y="177.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV27"/>
+<wire x1="116.84" y1="175.26" x2="119.38" y2="175.26" width="0.1524" layer="91"/>
+<label x="119.38" y="175.26" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV28"/>
 </segment>
 </net>
 <net name="L32" class="0">
@@ -5642,9 +5764,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
-<label x="119.38" y="167.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV31"/>
+<wire x1="116.84" y1="165.1" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
+<label x="119.38" y="165.1" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV32"/>
 </segment>
 </net>
 <net name="L33" class="0">
@@ -5654,9 +5776,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
-<label x="119.38" y="170.18" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV30"/>
+<wire x1="116.84" y1="167.64" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
+<label x="119.38" y="167.64" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV31"/>
 </segment>
 </net>
 <net name="L34" class="0">
@@ -5666,9 +5788,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
-<label x="119.38" y="172.72" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV29"/>
+<wire x1="116.84" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
+<label x="119.38" y="170.18" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV30"/>
 </segment>
 </net>
 <net name="L35" class="0">
@@ -5678,9 +5800,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="175.26" x2="119.38" y2="175.26" width="0.1524" layer="91"/>
-<label x="119.38" y="175.26" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV28"/>
+<wire x1="116.84" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
+<label x="119.38" y="172.72" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV29"/>
 </segment>
 </net>
 <net name="L36" class="0">
@@ -5690,9 +5812,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
-<label x="119.38" y="180.34" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV26"/>
+<wire x1="116.84" y1="177.8" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
+<label x="119.38" y="177.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV27"/>
 </segment>
 </net>
 <net name="L37" class="0">
@@ -5702,9 +5824,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="185.42" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
-<label x="119.38" y="185.42" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV24"/>
+<wire x1="116.84" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
+<label x="119.38" y="182.88" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV25"/>
 </segment>
 </net>
 <net name="L38" class="0">
@@ -5714,9 +5836,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<label x="83.82" y="129.54" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV23"/>
+<wire x1="116.84" y1="185.42" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
+<label x="119.38" y="185.42" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV24"/>
 </segment>
 </net>
 <net name="L39" class="0">
@@ -5726,9 +5848,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
-<label x="119.38" y="182.88" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV25"/>
+<wire x1="116.84" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
+<label x="119.38" y="180.34" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV26"/>
 </segment>
 </net>
 <net name="L30" class="0">
@@ -5738,9 +5860,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N3" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<label x="83.82" y="132.08" size="1.778" layer="95" rot="R180"/>
-<pinref part="U4" gate="G$1" pin="HV22"/>
+<wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
+<label x="83.82" y="129.54" size="1.778" layer="95" rot="R180"/>
+<pinref part="U4" gate="G$1" pin="HV23"/>
 </segment>
 </net>
 <net name="L3D" class="0">
@@ -5762,9 +5884,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
-<label x="137.16" y="170.18" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV7"/>
+<wire x1="134.62" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
+<label x="137.16" y="167.64" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV8"/>
 </segment>
 </net>
 <net name="L42" class="0">
@@ -5774,9 +5896,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
-<label x="137.16" y="152.4" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV14"/>
+<wire x1="134.62" y1="160.02" x2="137.16" y2="160.02" width="0.1524" layer="91"/>
+<label x="137.16" y="160.02" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV11"/>
 </segment>
 </net>
 <net name="L43" class="0">
@@ -5786,9 +5908,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N4" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
-<label x="137.16" y="157.48" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV12"/>
+<wire x1="134.62" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
+<label x="137.16" y="162.56" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV10"/>
 </segment>
 </net>
 <net name="L44" class="0">
@@ -5810,9 +5932,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N4" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
-<label x="137.16" y="167.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV8"/>
+<wire x1="134.62" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
+<label x="137.16" y="170.18" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV7"/>
 </segment>
 </net>
 <net name="L46" class="0">
@@ -5882,9 +6004,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="149.86" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
-<label x="137.16" y="149.86" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV15"/>
+<wire x1="134.62" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
+<label x="137.16" y="157.48" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV12"/>
 </segment>
 </net>
 <net name="L51" class="0">
@@ -5894,9 +6016,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
-<label x="137.16" y="129.54" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV23"/>
+<wire x1="134.62" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
+<label x="137.16" y="142.24" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV18"/>
 </segment>
 </net>
 <net name="L52" class="0">
@@ -5906,9 +6028,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
-<label x="172.72" y="177.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV27"/>
+<wire x1="134.62" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="137.16" y="132.08" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV22"/>
 </segment>
 </net>
 <net name="L53" class="0">
@@ -5918,9 +6040,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="180.34" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
-<label x="172.72" y="180.34" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV26"/>
+<wire x1="134.62" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
+<label x="137.16" y="134.62" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV21"/>
 </segment>
 </net>
 <net name="L54" class="0">
@@ -5930,9 +6052,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
-<label x="172.72" y="182.88" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV25"/>
+<wire x1="134.62" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
+<label x="137.16" y="137.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV20"/>
 </segment>
 </net>
 <net name="L55" class="0">
@@ -5942,9 +6064,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="185.42" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
-<label x="172.72" y="185.42" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV24"/>
+<wire x1="134.62" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
+<label x="137.16" y="139.7" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV19"/>
 </segment>
 </net>
 <net name="L56" class="0">
@@ -5954,9 +6076,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="137.16" y="132.08" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV22"/>
+<wire x1="134.62" y1="144.78" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
+<label x="137.16" y="144.78" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV17"/>
 </segment>
 </net>
 <net name="L57" class="0">
@@ -5966,9 +6088,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="91"/>
-<label x="137.16" y="137.16" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV20"/>
+<wire x1="134.62" y1="149.86" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
+<label x="137.16" y="149.86" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV15"/>
 </segment>
 </net>
 <net name="L58" class="0">
@@ -5978,9 +6100,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
-<label x="137.16" y="142.24" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV18"/>
+<wire x1="134.62" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
+<label x="137.16" y="152.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV14"/>
 </segment>
 </net>
 <net name="L59" class="0">
@@ -5990,9 +6112,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
-<label x="137.16" y="134.62" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV21"/>
+<wire x1="134.62" y1="147.32" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
+<label x="137.16" y="147.32" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV16"/>
 </segment>
 </net>
 <net name="L50" class="0">
@@ -6002,9 +6124,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N5" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="144.78" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
-<label x="137.16" y="144.78" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV17"/>
+<wire x1="134.62" y1="154.94" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
+<label x="137.16" y="154.94" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV13"/>
 </segment>
 </net>
 <net name="L61" class="0">
@@ -6014,9 +6136,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="182.88" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
-<label x="190.5" y="182.88" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV2"/>
+<wire x1="187.96" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
+<label x="190.5" y="175.26" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV5"/>
 </segment>
 </net>
 <net name="L62" class="0">
@@ -6050,9 +6172,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="177.8" x2="190.5" y2="177.8" width="0.1524" layer="91"/>
-<label x="190.5" y="177.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV4"/>
+<wire x1="187.96" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
+<label x="190.5" y="170.18" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV7"/>
 </segment>
 </net>
 <net name="L65" class="0">
@@ -6062,9 +6184,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="180.34" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
-<label x="190.5" y="180.34" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV3"/>
+<wire x1="187.96" y1="172.72" x2="190.5" y2="172.72" width="0.1524" layer="91"/>
+<label x="190.5" y="172.72" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV6"/>
 </segment>
 </net>
 <net name="L66" class="0">
@@ -6074,9 +6196,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
-<label x="190.5" y="185.42" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV1"/>
+<wire x1="187.96" y1="177.8" x2="190.5" y2="177.8" width="0.1524" layer="91"/>
+<label x="190.5" y="177.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV4"/>
 </segment>
 </net>
 <net name="L67" class="0">
@@ -6086,9 +6208,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
-<label x="172.72" y="165.1" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV32"/>
+<wire x1="187.96" y1="180.34" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
+<label x="190.5" y="180.34" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV3"/>
 </segment>
 </net>
 <net name="L68" class="0">
@@ -6098,9 +6220,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
-<label x="172.72" y="167.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV31"/>
+<wire x1="187.96" y1="182.88" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
+<label x="190.5" y="182.88" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV2"/>
 </segment>
 </net>
 <net name="L69" class="0">
@@ -6110,9 +6232,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="170.18" x2="172.72" y2="170.18" width="0.1524" layer="91"/>
-<label x="172.72" y="170.18" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV30"/>
+<wire x1="187.96" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
+<label x="190.5" y="185.42" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV1"/>
 </segment>
 </net>
 <net name="L60" class="0">
@@ -6122,9 +6244,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N6" gate="G$1" pin="0"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<label x="172.72" y="172.72" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV29"/>
+<wire x1="170.18" y1="185.42" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
+<label x="172.72" y="185.42" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV24"/>
 </segment>
 </net>
 <net name="L71" class="0">
@@ -6134,9 +6256,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
-<label x="190.5" y="147.32" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV16"/>
+<wire x1="187.96" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<label x="190.5" y="149.86" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV15"/>
 </segment>
 </net>
 <net name="L72" class="0">
@@ -6194,9 +6316,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N7" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
-<label x="190.5" y="149.86" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV15"/>
+<wire x1="187.96" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
+<label x="190.5" y="147.32" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV16"/>
 </segment>
 </net>
 <net name="L77" class="0">
@@ -6206,9 +6328,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N7" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<label x="190.5" y="154.94" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV13"/>
+<wire x1="187.96" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
+<label x="190.5" y="152.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV14"/>
 </segment>
 </net>
 <net name="L78" class="0">
@@ -6230,9 +6352,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="N7" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
-<label x="190.5" y="152.4" size="1.778" layer="95" rot="R180"/>
-<pinref part="U6" gate="G$1" pin="HV14"/>
+<wire x1="187.96" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="190.5" y="154.94" size="1.778" layer="95" rot="R180"/>
+<pinref part="U6" gate="G$1" pin="HV13"/>
 </segment>
 </net>
 <net name="L70" class="0">
@@ -6374,9 +6496,9 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="172.72" y1="175.26" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
-<label x="172.72" y="175.26" size="1.778" layer="95" rot="R180"/>
-<pinref part="U5" gate="G$1" pin="HV28"/>
+<wire x1="137.16" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<label x="137.16" y="129.54" size="1.778" layer="95" rot="R180"/>
+<pinref part="U5" gate="G$1" pin="HV23"/>
 </segment>
 </net>
 <net name="L6D" class="0">
