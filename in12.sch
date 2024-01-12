@@ -5511,6 +5511,277 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117.pdf"&gt; Datasheet &
 </deviceset>
 </devicesets>
 </library>
+<library name="1-2199230-6">
+<packages>
+<package name="TE_1-2199230-6">
+<wire x1="-10.95" y1="-2.5" x2="-10.95" y2="5.25" width="0.127" layer="51"/>
+<wire x1="-10.95" y1="5.25" x2="10.95" y2="5.25" width="0.127" layer="51"/>
+<wire x1="10.95" y1="5.25" x2="10.95" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.95" y1="-2.5" x2="-10.95" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-11.2" y1="-3.3" x2="11.25" y2="-3.3" width="0.05" layer="39"/>
+<wire x1="11.25" y1="-3.3" x2="11.25" y2="6.3" width="0.05" layer="39"/>
+<wire x1="11.25" y1="6.3" x2="-11.2" y2="6.3" width="0.05" layer="39"/>
+<wire x1="-11.2" y1="6.3" x2="-11.2" y2="-3.3" width="0.05" layer="39"/>
+<text x="-11.167" y="7.5251" size="1.78473125" layer="25">&gt;NAME</text>
+<text x="-11.3181" y="-5.41095" size="1.78876875" layer="27">&gt;VALUE</text>
+<circle x="-9.25" y="6.7" radius="0.1" width="0.2" layer="21"/>
+<circle x="-9.25" y="6.7" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-10.95" y1="-2.5" x2="-10.95" y2="2.805" width="0.127" layer="21"/>
+<wire x1="10.95" y1="2.805" x2="10.95" y2="1.145" width="0.127" layer="21"/>
+<wire x1="10.95" y1="-2.5" x2="10.95" y2="-1.145" width="0.127" layer="21"/>
+<wire x1="-9.47" y1="-2.5" x2="-10.95" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="10.95" y1="-2.5" x2="9.47" y2="-2.5" width="0.127" layer="21"/>
+<hole x="-10" y="0" drill="1.15"/>
+<hole x="10" y="0" drill="1.65"/>
+<smd name="1" x="-9.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="2" x="-9" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="3" x="-8.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="4" x="-8.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="5" x="-8.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="6" x="-8" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="7" x="-7.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="8" x="-7.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="9" x="-7.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="10" x="-7" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="11" x="-6.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="67" x="7.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="68" x="7.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="69" x="7.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="70" x="8" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="71" x="8.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="72" x="8.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="73" x="8.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="74" x="9" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="75" x="9.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="S1" x="-10.35" y="4.5" dx="1.2" dy="2.75" layer="1"/>
+<smd name="S2" x="10.35" y="4.5" dx="1.2" dy="2.75" layer="1"/>
+<smd name="12" x="-6.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="13" x="-6.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="14" x="-6" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="15" x="-5.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="16" x="-5.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="17" x="-5.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="18" x="-5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="19" x="-4.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="20" x="-4.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="21" x="-4.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="22" x="-4" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="23" x="-3.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="24" x="-3.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="25" x="-3.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="26" x="-3" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="27" x="-2.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="28" x="-2.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="29" x="-2.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="30" x="-2" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="31" x="-1.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="32" x="-1.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="33" x="-1.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="34" x="-1" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="35" x="-0.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="36" x="-0.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="37" x="-0.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="38" x="0" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="39" x="0.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="40" x="0.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="41" x="0.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="42" x="1" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="43" x="1.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="44" x="1.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="45" x="1.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="46" x="2" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="47" x="2.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="48" x="2.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="49" x="2.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="50" x="3" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="51" x="3.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="52" x="3.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="53" x="3.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="54" x="4" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="55" x="4.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="56" x="4.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="57" x="4.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="58" x="5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1-2199230-6">
+<wire x1="-7.62" y1="50.8" x2="-7.62" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-50.8" x2="7.62" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-50.8" x2="7.62" y2="50.8" width="0.254" layer="94"/>
+<wire x1="7.62" y1="50.8" x2="-7.62" y2="50.8" width="0.254" layer="94"/>
+<text x="-7.66536875" y="51.8486" size="2.1974" layer="95">&gt;NAME</text>
+<text x="-7.65766875" y="-53.5842" size="2.1952" layer="96">&gt;VALUE</text>
+<pin name="SHIELD" x="12.7" y="-48.26" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-12.7" y="48.26" length="middle" direction="pas"/>
+<pin name="2" x="12.7" y="48.26" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="-12.7" y="45.72" length="middle" direction="pas"/>
+<pin name="4" x="12.7" y="45.72" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="-12.7" y="43.18" length="middle" direction="pas"/>
+<pin name="6" x="12.7" y="43.18" length="middle" direction="pas" rot="R180"/>
+<pin name="7" x="-12.7" y="40.64" length="middle" direction="pas"/>
+<pin name="8" x="12.7" y="40.64" length="middle" direction="pas" rot="R180"/>
+<pin name="9" x="-12.7" y="38.1" length="middle" direction="pas"/>
+<pin name="10" x="12.7" y="38.1" length="middle" direction="pas" rot="R180"/>
+<pin name="11" x="-12.7" y="35.56" length="middle" direction="pas"/>
+<pin name="33" x="-12.7" y="7.62" length="middle" direction="pas"/>
+<pin name="34" x="12.7" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="35" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="36" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="37" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="38" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="39" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="40" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="41" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="42" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="43" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="44" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="45" x="-12.7" y="-7.62" length="middle" direction="pas"/>
+<pin name="46" x="12.7" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="47" x="-12.7" y="-10.16" length="middle" direction="pas"/>
+<pin name="48" x="12.7" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="49" x="-12.7" y="-12.7" length="middle" direction="pas"/>
+<pin name="50" x="12.7" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="51" x="-12.7" y="-15.24" length="middle" direction="pas"/>
+<pin name="52" x="12.7" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="53" x="-12.7" y="-17.78" length="middle" direction="pas"/>
+<pin name="54" x="12.7" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="55" x="-12.7" y="-20.32" length="middle" direction="pas"/>
+<pin name="56" x="12.7" y="-20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="57" x="-12.7" y="-22.86" length="middle" direction="pas"/>
+<pin name="58" x="12.7" y="-22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="67" x="-12.7" y="-35.56" length="middle" direction="pas"/>
+<pin name="68" x="12.7" y="-35.56" length="middle" direction="pas" rot="R180"/>
+<pin name="69" x="-12.7" y="-38.1" length="middle" direction="pas"/>
+<pin name="70" x="12.7" y="-38.1" length="middle" direction="pas" rot="R180"/>
+<pin name="71" x="-12.7" y="-40.64" length="middle" direction="pas"/>
+<pin name="72" x="12.7" y="-40.64" length="middle" direction="pas" rot="R180"/>
+<pin name="73" x="-12.7" y="-43.18" length="middle" direction="pas"/>
+<pin name="74" x="12.7" y="-43.18" length="middle" direction="pas" rot="R180"/>
+<pin name="75" x="-12.7" y="-45.72" length="middle" direction="pas"/>
+<pin name="12" x="12.7" y="35.56" length="middle" direction="pas" rot="R180"/>
+<pin name="13" x="-12.7" y="33.02" length="middle" direction="pas"/>
+<pin name="14" x="12.7" y="33.02" length="middle" direction="pas" rot="R180"/>
+<pin name="15" x="-12.7" y="30.48" length="middle" direction="pas"/>
+<pin name="16" x="12.7" y="30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="17" x="-12.7" y="27.94" length="middle" direction="pas"/>
+<pin name="18" x="12.7" y="27.94" length="middle" direction="pas" rot="R180"/>
+<pin name="19" x="-12.7" y="25.4" length="middle" direction="pas"/>
+<pin name="20" x="12.7" y="25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="21" x="-12.7" y="22.86" length="middle" direction="pas"/>
+<pin name="22" x="12.7" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="23" x="-12.7" y="20.32" length="middle" direction="pas"/>
+<pin name="24" x="12.7" y="20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="25" x="-12.7" y="17.78" length="middle" direction="pas"/>
+<pin name="26" x="12.7" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="27" x="-12.7" y="15.24" length="middle" direction="pas"/>
+<pin name="28" x="12.7" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="29" x="-12.7" y="12.7" length="middle" direction="pas"/>
+<pin name="30" x="12.7" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="31" x="-12.7" y="10.16" length="middle" direction="pas"/>
+<pin name="32" x="12.7" y="10.16" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1-2199230-6" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/1-2199230-6/TE%20Connectivity/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1-2199230-6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_1-2199230-6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="41" pad="41"/>
+<connect gate="G$1" pin="42" pad="42"/>
+<connect gate="G$1" pin="43" pad="43"/>
+<connect gate="G$1" pin="44" pad="44"/>
+<connect gate="G$1" pin="45" pad="45"/>
+<connect gate="G$1" pin="46" pad="46"/>
+<connect gate="G$1" pin="47" pad="47"/>
+<connect gate="G$1" pin="48" pad="48"/>
+<connect gate="G$1" pin="49" pad="49"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="50" pad="50"/>
+<connect gate="G$1" pin="51" pad="51"/>
+<connect gate="G$1" pin="52" pad="52"/>
+<connect gate="G$1" pin="53" pad="53"/>
+<connect gate="G$1" pin="54" pad="54"/>
+<connect gate="G$1" pin="55" pad="55"/>
+<connect gate="G$1" pin="56" pad="56"/>
+<connect gate="G$1" pin="57" pad="57"/>
+<connect gate="G$1" pin="58" pad="58"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="67" pad="67"/>
+<connect gate="G$1" pin="68" pad="68"/>
+<connect gate="G$1" pin="69" pad="69"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="70" pad="70"/>
+<connect gate="G$1" pin="71" pad="71"/>
+<connect gate="G$1" pin="72" pad="72"/>
+<connect gate="G$1" pin="73" pad="73"/>
+<connect gate="G$1" pin="74" pad="74"/>
+<connect gate="G$1" pin="75" pad="75"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CENTERLINE_PITCH" value=".5 mm[.0197 in]"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1-2199230-6/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"/>
+<attribute name="COMMENT" value="1-2199230-6"/>
+<attribute name="DESCRIPTION" value=" 67 Position Female Connector M.2 (NGFF) Mini Card Gold 0.020 (0.50mm) Black "/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="1-2199230-6"/>
+<attribute name="NUMBER_OF_POSITIONS" value="67"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PRODUCT_TYPE" value="Socket"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=587628&amp;manufacturer=TE Connectivity&amp;part_name=1-2199230-6&amp;search_term=m.2 "/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1-2199230-6/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5556,6 +5827,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117.pdf"&gt; Datasheet &
 <part name="U$2" library="SamacSys_Parts" deviceset="HV_PSU" device=""/>
 <part name="U1" library="SamacSys_Parts" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:22977922/1"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="LM1117MPX-3.3_NOPB" device="" package3d_urn="urn:adsk.eagle:package:22978087/1"/>
+<part name="J1" library="1-2199230-6" deviceset="1-2199230-6" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5687,6 +5959,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117.pdf"&gt; Datasheet &
 <instance part="IC1" gate="G$1" x="271.78" y="10.16" smashed="yes">
 <attribute name="NAME" x="300.99" y="17.78" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="300.99" y="15.24" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="J1" gate="G$1" x="355.6" y="142.24" smashed="yes">
+<attribute name="NAME" x="347.93463125" y="194.0886" size="2.1974" layer="95"/>
+<attribute name="VALUE" x="347.94233125" y="88.6558" size="2.1952" layer="96"/>
 </instance>
 </instances>
 <busses>

@@ -1625,6 +1625,100 @@ Source: http://www.st.com/stonline/products/literature/ds/11020.pdf</description
 </package3d>
 </packages3d>
 </library>
+<library name="1-2199230-6">
+<packages>
+<package name="TE_1-2199230-6">
+<wire x1="-10.95" y1="-2.5" x2="-10.95" y2="5.25" width="0.127" layer="51"/>
+<wire x1="-10.95" y1="5.25" x2="10.95" y2="5.25" width="0.127" layer="51"/>
+<wire x1="10.95" y1="5.25" x2="10.95" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.95" y1="-2.5" x2="-10.95" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-11.2" y1="-3.3" x2="11.25" y2="-3.3" width="0.05" layer="39"/>
+<wire x1="11.25" y1="-3.3" x2="11.25" y2="6.3" width="0.05" layer="39"/>
+<wire x1="11.25" y1="6.3" x2="-11.2" y2="6.3" width="0.05" layer="39"/>
+<wire x1="-11.2" y1="6.3" x2="-11.2" y2="-3.3" width="0.05" layer="39"/>
+<text x="-11.167" y="7.5251" size="1.78473125" layer="25">&gt;NAME</text>
+<text x="-11.3181" y="-5.41095" size="1.78876875" layer="27">&gt;VALUE</text>
+<circle x="-9.25" y="6.7" radius="0.1" width="0.2" layer="21"/>
+<circle x="-9.25" y="6.7" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-10.95" y1="-2.5" x2="-10.95" y2="2.805" width="0.127" layer="21"/>
+<wire x1="10.95" y1="2.805" x2="10.95" y2="1.145" width="0.127" layer="21"/>
+<wire x1="10.95" y1="-2.5" x2="10.95" y2="-1.145" width="0.127" layer="21"/>
+<wire x1="-9.47" y1="-2.5" x2="-10.95" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="10.95" y1="-2.5" x2="9.47" y2="-2.5" width="0.127" layer="21"/>
+<hole x="-10" y="0" drill="1.15"/>
+<hole x="10" y="0" drill="1.65"/>
+<smd name="1" x="-9.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="2" x="-9" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="3" x="-8.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="4" x="-8.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="5" x="-8.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="6" x="-8" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="7" x="-7.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="8" x="-7.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="9" x="-7.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="10" x="-7" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="11" x="-6.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="67" x="7.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="68" x="7.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="69" x="7.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="70" x="8" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="71" x="8.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="72" x="8.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="73" x="8.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="74" x="9" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="75" x="9.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="S1" x="-10.35" y="4.5" dx="1.2" dy="2.75" layer="1"/>
+<smd name="S2" x="10.35" y="4.5" dx="1.2" dy="2.75" layer="1"/>
+<smd name="12" x="-6.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="13" x="-6.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="14" x="-6" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="15" x="-5.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="16" x="-5.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="17" x="-5.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="18" x="-5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="19" x="-4.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="20" x="-4.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="21" x="-4.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="22" x="-4" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="23" x="-3.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="24" x="-3.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="25" x="-3.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="26" x="-3" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="27" x="-2.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="28" x="-2.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="29" x="-2.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="30" x="-2" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="31" x="-1.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="32" x="-1.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="33" x="-1.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="34" x="-1" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="35" x="-0.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="36" x="-0.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="37" x="-0.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="38" x="0" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="39" x="0.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="40" x="0.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="41" x="0.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="42" x="1" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="43" x="1.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="44" x="1.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="45" x="1.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="46" x="2" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="47" x="2.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="48" x="2.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="49" x="2.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="50" x="3" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="51" x="3.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="52" x="3.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="53" x="3.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="54" x="4" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="55" x="4.25" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="56" x="4.5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="57" x="4.75" y="5.275" dx="0.3" dy="1.55" layer="1"/>
+<smd name="58" x="5" y="-2.275" dx="0.3" dy="1.55" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1663,7 +1757,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="20mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="8mil"/>
@@ -2016,6 +2110,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-29.21" y="-3.937" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-29.21" y="6.223" size="1.27" layer="27" align="center"/>
 </element>
+<element name="J1" library="1-2199230-6" package="TE_1-2199230-6" value="1-2199230-6" x="55.753" y="26.924" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="CENTERLINE_PITCH" value=".5 mm[.0197 in]" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/1-2199230-6/TE+Connectivity+AMP+Connectors/view-part/?ref=eda" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="COMMENT" value="1-2199230-6" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 67 Position Female Connector M.2 (NGFF) Mini Card Gold 0.020 (0.50mm) Black " x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1-2199230-6" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="55.762" y="29.1151" size="1.78473125" layer="25"/>
+<attribute name="NUMBER_OF_POSITIONS" value="67" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="None" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="PRODUCT_TYPE" value="Socket" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=587628&amp;manufacturer=TE Connectivity&amp;part_name=1-2199230-6&amp;search_term=m.2 " x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/1-2199230-6/TE+Connectivity+AMP+Connectors/view-part/?ref=snap" x="55.753" y="26.924" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.2609" y="26.84705" size="1.78876875" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2367,21 +2478,28 @@ design rules under a new name.</description>
 <wire x1="49.3376" y1="14.4524625" x2="48.26" y2="15.5300625" width="0.2032" layer="1"/>
 <wire x1="50.0375" y1="5.1365" x2="49.3376" y2="5.8364" width="0.2032" layer="1"/>
 <wire x1="49.3376" y1="5.8364" x2="49.3376" y2="14.4524625" width="0.2032" layer="1"/>
-<wire x1="48.26" y1="15.5300625" x2="48.26" y2="22.4662625" width="0.2032" layer="1"/>
+<wire x1="48.26" y1="15.5300625" x2="48.26" y2="21.9582625" width="0.2032" layer="1"/>
 <contactref element="U4" pad="18"/>
 <wire x1="39.53468125" y1="24.418421875" x2="40.347521875" y2="23.605584375" width="0.2032" layer="1"/>
-<wire x1="40.347521875" y1="23.605584375" x2="47.120678125" y2="23.605584375" width="0.2032" layer="1"/>
-<wire x1="47.120678125" y1="23.605584375" x2="48.26" y2="22.4662625" width="0.2032" layer="1"/>
+<wire x1="40.347521875" y1="23.605584375" x2="46.612678125" y2="23.605584375" width="0.2032" layer="1"/>
+<wire x1="46.612678125" y1="23.605584375" x2="48.26" y2="21.9582625" width="0.2032" layer="1"/>
 </signal>
 <signal name="L32">
 <contactref element="N3" pad="2"/>
 <wire x1="53.9496" y1="10.3613375" x2="52.0422625" y2="8.454" width="0.2032" layer="1"/>
 <wire x1="51.72" y1="8.454" x2="52.0422625" y2="8.454" width="0.2032" layer="1"/>
-<wire x1="53.9496" y1="10.3613375" x2="53.9496" y2="21.981125" width="0.2032" layer="1"/>
+<wire x1="53.9496" y1="10.3613375" x2="53.9496" y2="25.664125" width="0.2032" layer="1"/>
 <contactref element="U4" pad="22"/>
-<wire x1="50.274865625" y1="25.655859375" x2="41.125671875" y2="25.655859375" width="0.2032" layer="1"/>
+<wire x1="41.125671875" y1="25.655859375" x2="42.164" y2="25.655859375" width="0.2032" layer="1"/>
 <wire x1="40.948896875" y1="25.832634375" x2="41.125671875" y2="25.655859375" width="0.2032" layer="1"/>
-<wire x1="50.274865625" y1="25.655859375" x2="53.9496" y2="21.981125" width="0.2032" layer="1"/>
+<wire x1="52.941865625" y1="26.671859375" x2="52.943725" y2="26.67" width="0.2032" layer="1"/>
+<wire x1="52.943725" y1="26.67" x2="53.9496" y2="25.664125" width="0.2032" layer="1"/>
+<wire x1="42.164" y1="25.655859375" x2="44.831" y2="28.322859375" width="0.2032" layer="1"/>
+<wire x1="44.831" y1="28.322859375" x2="44.831" y2="28.575" width="0.2032" layer="1"/>
+<wire x1="44.831" y1="28.575" x2="51.038725" y2="28.575" width="0.2032" layer="1"/>
+<wire x1="51.038725" y1="28.575" x2="53.935725" y2="25.678" width="0.2032" layer="1"/>
+<wire x1="53.935725" y1="25.678" x2="53.9496" y2="25.678" width="0.2032" layer="1"/>
+<wire x1="52.941865625" y1="26.671859375" x2="53.9496" y2="25.678" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L33">
 <contactref element="N3" pad="3"/>
