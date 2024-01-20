@@ -33,5 +33,8 @@ PCB design in EAGLE. Fusion for case.
     * ESP32
     * [DS3232](https://www.analog.com/media/en/technical-documentation/data-sheets/ds3232.pdf)
     * [Taylor Electronics HVPS 1364](https://www.shop-tes.com/content/Datasheets/8002K.pdf)
+    * [Potentiometer](https://www.mouser.jp/datasheet/2/609/MAX5460_MAX5468-3129691.pdf)
     * Type C
     * Full control on HV 
+
+    * optional: battery support
