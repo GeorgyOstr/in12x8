@@ -277,6 +277,8 @@ UsedLibraryUrn="urn:adsk.eagle:library:348"
 UsedLibraryUrn="urn:adsk.eagle:library:535"
 UsedLibraryUrn="urn:adsk.eagle:library:513"
 UsedLibrary="C:/Users/georg/Downloads/nixiemisc.lbr"
+UsedLibrary="C:/Users/georg/Documents/EAGLE/libraries/BH600.lbr"
+UsedLibrary="C:/Users/georg/Documents/EAGLE/libraries/103.lbr"
 
 [Win_1]
 Type="Control Panel"
