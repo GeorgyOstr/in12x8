@@ -13,6 +13,7 @@ Based on Tom Titor design.
 
 ### Target for v1
 PCB design in EAGLE. Fusion for case.
+All caps MLCC.
 
 1. Display board 
     * 2 layers
@@ -38,3 +39,14 @@ PCB design in EAGLE. Fusion for case.
     * Full control on HV 
 
     * optional: battery support
+
+### Target for v2
+
+2. Control board
+    * 2 layers
+    * Minimal footprint
+    * SMD only except USB-c
+    * No modules
+    * Battery support
+
+
