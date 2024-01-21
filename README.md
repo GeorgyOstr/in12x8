@@ -35,7 +35,7 @@ All caps MLCC.
     * [DS3232](https://www.analog.com/media/en/technical-documentation/data-sheets/ds3232.pdf)
     * [Taylor Electronics HVPS 1364](https://www.shop-tes.com/content/Datasheets/8002K.pdf)
     * [Potentiometer](https://www.mouser.jp/datasheet/2/609/MAX5460_MAX5468-3129691.pdf)
-    * Type C
+    * [Type C](https://www.mouser.jp/ProductDetail/Wurth-Elektronik/632723300021?qs=t3bE0qb%2FqEJYzZ4bEQN6Ug%3D%3D)
     * Full control on HV 
 
     * optional: battery support
