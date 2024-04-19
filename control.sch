@@ -8785,8 +8785,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <vertex x="4.99" y="-7.5" curve="-90"/>
 <vertex x="4.49" y="-8" curve="-90"/>
 </polygon>
-<rectangle x1="-3.75" y1="-8.75" x2="3.75" y2="-1.95" layer="41"/>
-<rectangle x1="-3.75" y1="-8.75" x2="3.75" y2="-1.95" layer="43"/>
+<rectangle x1="-3.75" y1="-8.75" x2="3.75" y2="-3.8296" layer="41"/>
+<rectangle x1="-3.75" y1="-8.75" x2="3.75" y2="-3.8296" layer="43"/>
 <wire x1="-4.6" y1="-2.2" x2="-4.6" y2="-6.18" width="0.127" layer="21"/>
 <wire x1="-4.6" y1="-0.3" x2="-4.6" y2="0.86" width="0.127" layer="21"/>
 <wire x1="-4.6" y1="-9.59" x2="-4.6" y2="-8.22" width="0.127" layer="21"/>
@@ -8912,6 +8912,76 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="22-23-2021" urn="urn:adsk.eagle:footprint:8078259/1" library_version="5">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="22-23-2021" urn="urn:adsk.eagle:package:8078633/1" type="box" library_version="5">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="22-23-2021"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="22-23-2021" urn="urn:adsk.eagle:component:8078938/3" prefix="X" library_version="5">
+<description>.100" (2.54mm) Center Header - 2 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2021">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2021" constant="no"/>
+<attribute name="OC_FARNELL" value="1462926" constant="no"/>
+<attribute name="OC_NEWARK" value="25C3832" constant="no"/>
+<attribute name="POPULARITY" value="40" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8936,6 +9006,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k2"/>
 <part name="J2" library="12401598E4_2A" deviceset="12401598E4#2A" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5k1"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5k1"/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8992,6 +9065,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="302.248009375" y="124.512" size="2.54" layer="95"/>
 <attribute name="VALUE" x="302.24645" y="50.7368" size="2.54" layer="96"/>
 </instance>
+<instance part="R3" gate="G$1" x="332.74" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="331.2414" y="62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="336.042" y="62.23" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="337.82" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="336.3214" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="341.122" y="80.01" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X1" gate="-1" x="347.98" y="109.22" smashed="yes">
+<attribute name="NAME" x="350.52" y="108.458" size="1.524" layer="95"/>
+<attribute name="VALUE" x="347.218" y="110.617" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="347.98" y="106.68" smashed="yes">
+<attribute name="NAME" x="350.52" y="105.918" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9021,6 +9109,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="266.7" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="68.58" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="332.74" y1="119.38" x2="322.58" y2="119.38" width="0.1524" layer="91"/>
+<label x="330.2" y="119.38" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9117,6 +9210,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="55.88" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="340.36" y="58.42" size="1.778" layer="95"/>
+<wire x1="332.74" y1="58.42" x2="345.44" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="78.74" x2="337.82" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="60.96" x2="332.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="60.96" x2="332.74" y2="58.42" width="0.1524" layer="91"/>
+<junction x="332.74" y="60.96"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="322.58" y1="58.42" x2="332.74" y2="58.42" width="0.1524" layer="91"/>
+<junction x="332.74" y="58.42"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -9348,6 +9454,52 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="213.36" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
 <label x="213.36" y="63.5" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="IO17"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="CC2"/>
+<wire x1="322.58" y1="71.12" x2="332.74" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="CC1"/>
+<wire x1="322.58" y1="88.9" x2="337.82" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="DN" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="DN2"/>
+<wire x1="322.58" y1="106.68" x2="314.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="106.68" x2="314.96" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="DN1"/>
+<wire x1="314.96" y1="114.3" x2="322.58" y2="114.3" width="0.1524" layer="91"/>
+<junction x="322.58" y="114.3"/>
+<label x="330.2" y="114.3" size="1.778" layer="95"/>
+<wire x1="322.58" y1="114.3" x2="332.74" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="332.74" y1="114.3" x2="332.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="109.22" x2="345.44" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DP" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="DP1"/>
+<wire x1="322.58" y1="111.76" x2="325.12" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="111.76" x2="325.12" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="DP2"/>
+<wire x1="325.12" y1="104.14" x2="322.58" y2="104.14" width="0.1524" layer="91"/>
+<junction x="325.12" y="104.14"/>
+<label x="330.2" y="104.14" size="1.778" layer="95"/>
+<wire x1="325.12" y1="104.14" x2="337.82" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="337.82" y1="104.14" x2="358.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="106.68" x2="337.82" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="106.68" x2="337.82" y2="104.14" width="0.1524" layer="91"/>
+<junction x="337.82" y="104.14"/>
 </segment>
 </net>
 </nets>
